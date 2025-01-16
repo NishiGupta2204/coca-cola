@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    color: #fff;
+}
+
+html, body{
+    width:100%;
+    height: 80%;
+    background-color: black;
+}
+
+header{
+    display:flex;
+    margin-top: 4%;
+}
+#elemnets{
+    
+    display: flex;
+    width:100vw;
+    justify-content: center;
+
+}
+
+h4{
+    margin-left: 2%;
+}
+
+.ri-search-line{
+    margin-right: 2%;
+}
+
+#image{
+    height:50px;
+    margin-left: 2%;
+    margin-top: -1%;
+}
+
+#nav{
+    display: flex;
+}
+#nav i{
+    margin-right: 7px;
+}
+
+main{
+    display:flex;
+    height: 87vh;
+    width:100vw;
+    font-family:'Arial', 'Futura', 'Gotham Rounded', sans-serif;
+}
+#left{
+    width: 40%;
+    background-color: black;
+}
+#center{
+    width:30%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#right{
+    width:30%;
+    background-color: black;
+}
+
+#main_content{
+    font-size: 55px;
+    font-weight: 500;
+    padding-top: 29%;
+    padding-left: 29%;
+}
+
+main span{
+    color: red;
+    font-weight: 300;
+}
+
+#supply{
+    padding-left: 29%;
+    padding-top: 4%;
+    width: 53%;
+    line-height: 25px;
+}
+
+#button{
+    margin-top: 4%;
+    padding-left: 29%;
+    display: flex;
+}
+
+#butt{
+    height: 43px;
+    width: 151px;
+    background-color: rgb(227, 24, 24);
+    border-radius: 50px;
+    font-family:'Arial', 'Futura', 'Gotham Rounded', sans-serif;
+    font-weight:700;
+    border: none;   
+}
+
+#yellow{
+    background-color: yellow;
+    width: 65%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    position: relative;
+    background-image: url(https://c0.wallpaperflare.com/preview/85/135/782/coca-cola-led-signage-thumbnail.jpg);
+    background-size:756%;
+    background-position: 31% 34%;
+    filter: blur(4px);
+}
+
+#center>img{
+    height: 100%;
+    position: absolute;
+    right: 3%;
+}
+
+#position{
+    margin-top: 75%;
+    margin-left: 25%;
+
+}
+
+.name{
+    font-size: 23px;
+    font-family:'Arial', 'Futura', 'Gotham Rounded', sans-serif;
+    font-weight: 600;
+}
+
+.ji{
+    display: flex;
+}
+
+#icon1{
+    margin-left: 26%;
+}
+#icon2{
+    margin-left: 36%;
+    margin-top: 1.5%;
+}
+.mi{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
